@@ -1,0 +1,24 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 2rem; 
+  }
+  
+ .header img {
+    margin-left: auto;
+    width: 25rem;
+    height: auto;
+ }
+  
+ .headerTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    color: #ddd6cb;
+    margin: 0;
+}
+
+.paragraph{
+    margin-top: 4rem;
+    line-height: 2;
+}
