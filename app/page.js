@@ -7,7 +7,7 @@ export default function HomePage() {
     <>
       <header className={styles.header}>
         <h1>
-        Follow for insights and tips on balancing<span className={styles.highlight}> Work, Play</span> and <span className={styles.highlight}>Family life</span>
+        Follow for insights and tips on balancing<span className={styles.highlight}> Work, Hobbies</span> and <span className={styles.highlight}>Family life</span>
         </h1>
       </header>
         <main className={styles.main}>
