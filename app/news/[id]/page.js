@@ -15,6 +15,7 @@ export default function NewsDetailPage({ params }){
                 <h1 className={styles.headerTitle}>{blogItem.title}</h1>     
                 <img src={`/images/news/${blogItem.image}`} alt={blogItem.slug} />
             </header> 
+            <time dateTime={blogItem.date}>{blogItem.date}</time>
             <p className={styles.paragraph}>{blogItem.content}</p>
         </article>
     )
