@@ -19,19 +19,6 @@
     -webkit-text-fill-color: transparent;
   }
   
-  .main {
-    width: 90%;
-    max-width: 40rem;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  .main h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    margin-bottom: 3rem;
-    color: #ddd6cb;
-  }
   
   .perks {
     list-style: none;

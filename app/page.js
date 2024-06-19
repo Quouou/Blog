@@ -7,14 +7,14 @@ export default function HomePage() {
     <>
       <header className={styles.header}>
         <h1>
-        Follow for tips and experiences on a balanced life of <span className={styles.highlight}> Work, Play</span> and <span className={styles.highlight}>Family</span>
+        Follow for insights and tips on balancing<span className={styles.highlight}> Work, Play</span> and <span className={styles.highlight}>Family life</span>
         </h1>
       </header>
         <main className={styles.main}>
 
         <ul className={styles.perks}>
           <li>
-            <p>Find new friends & like-minded people</p>
+            <p>Discover new friends and connect with like-minded individuals.</p>
             <Image src={friendsImg} alt='friendsImage' />
           </li>
         </ul>

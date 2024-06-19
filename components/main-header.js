@@ -18,7 +18,7 @@ export default function MainHeader() {
           </nav>
           <div id="logo"> <br/>
           <Link href="/">
-              <Image src={logoImg} alt="logo" /> 
+              <Image src={logoImg} alt="logo" width={150} /> 
           </Link>
           </div>
           <nav>
