@@ -12,11 +12,15 @@ export default function MainHeader() {
           <div id="logo"> <br/>
           <Link href="/">
               <Image src={logoImg} alt="logo" /> 
+             
           </Link>
 
           </div>
           <nav>
             <ul>
+              <li>
+                <Link href="/">Home</Link>
+              </li>   
               <li>
                 <Link href="/news">Blog</Link>
               </li>
