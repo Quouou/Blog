@@ -9,20 +9,22 @@ export default function MainHeader() {
   return (
     <> 
         <header id="main-header">
+        <nav>
+            <ul> 
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+            </ul>
+          </nav>
           <div id="logo"> <br/>
           <Link href="/">
               <Image src={logoImg} alt="logo" /> 
-             
           </Link>
-
           </div>
           <nav>
-            <ul>
+            <ul> 
               <li>
-                <Link href="/">Home</Link>
-              </li>   
-              <li>
-                <Link href="/news">Blog</Link>
+                <Link href="/blog">Blog</Link>
               </li>
             </ul>
           </nav>

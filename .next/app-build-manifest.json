@@ -1,15 +1,15 @@
 {
   "pages": {
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
+    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
-    ],
-    "/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
     ],
     "/page": [
       "static/chunks/webpack.js",
@@ -17,22 +17,22 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/news/page": [
+    "/blog/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/news/page.css",
-      "static/chunks/app/news/page.js"
+      "static/css/app/blog/page.css",
+      "static/chunks/app/blog/page.js"
     ],
-    "/news/[id]/not-found": [
+    "/blog/[id]/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/news/[id]/not-found.js"
+      "static/chunks/app/blog/[id]/not-found.js"
     ],
-    "/news/[id]/page": [
+    "/blog/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/news/[id]/page.css",
-      "static/chunks/app/news/[id]/page.js"
+      "static/css/app/blog/[id]/page.css",
+      "static/chunks/app/blog/[id]/page.js"
     ]
   }
 }
