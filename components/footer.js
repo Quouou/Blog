@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import styles from '../components/footer.module.css';
-import logoImg from '../assets/logo.jpg'
 import  facebookLogo from '../assets/social_facebook_fb_.png'
 import instagramLogo from '../assets/instagram_black_logo_icon_.png'
 import mailLogo from '../assets/1490129331-rounded07_.png'
@@ -17,7 +16,6 @@ export default function Footer(){
                <Link href=''><Image src={instagramLogo} alt="instagramLogo" width={40} className={styles.indivImage} /></Link>
                <Link href=''><Image src={mailLogo} alt="mailLogo" width={40}  className={styles.indivImage}/> </Link>
                <Link href=''><Image src={tiktokLogo} alt="tiktokLogo" width={40}  className={styles.indivImage}/> </Link>
-               
         </div>
         <div className={styles.paragraph}>
             <p>© 2024 Through The Blog </p>
