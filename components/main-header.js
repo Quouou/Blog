@@ -20,9 +20,6 @@ export default function MainHeader() {
               <li>
                 <Link href="/news">Blog</Link>
               </li>
-              <li>
-                <Link href="/about">About</Link>
-              </li>
             </ul>
           </nav>
         </header>

@@ -17,6 +17,9 @@ export default function NewsDetailPage({ params }){
             </header> 
             <time dateTime={blogItem.date}>{blogItem.date}</time>
             <p className={styles.paragraph}>{blogItem.content}</p>
+            <h1>Any feedback or comments?</h1>
+            <textarea placeholder="Comment Here" className={styles.textarea}></textarea>
+            <button className={styles.button}>Submit</button>
         </article>
     )
 }
