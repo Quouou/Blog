@@ -129,3 +129,37 @@ ul {
   text-align: center;
   margin-top: 3rem;
 }
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/footer.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.footer_footer__mqdak{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    
+}
+.footer_paragraph__Bi8B8{
+    margin-left: 1.5rem;
+    color:#141417;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer_image__E4Lm6{
+    margin-left: 1.5rem;
+    margin-top: 2.2rem;
+    display: flex;
+}
+.footer_indivImage__KzSYE{
+    margin-left: 1rem;
+
+}
+
+

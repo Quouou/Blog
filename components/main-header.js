@@ -3,7 +3,6 @@
 import Image from 'next/image';
 import logoImg from '../assets/Gold_logo.png';
 import Link from 'next/link';
-import style from '../components/main-header.module.css';
 
 export default function MainHeader() {
   return (
@@ -12,7 +11,7 @@ export default function MainHeader() {
         <nav>
             <ul> 
               <li>
-                <Link href="/">Home</Link>
+                <Link href="/">HOME</Link>
               </li>
             </ul>
           </nav>
@@ -24,7 +23,7 @@ export default function MainHeader() {
           <nav>
             <ul> 
               <li>
-                <Link href="/blog">Blog</Link>
+                <Link href="/blog">BLOG</Link>
               </li>
             </ul>
           </nav>

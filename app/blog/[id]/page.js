@@ -13,7 +13,7 @@ export default function NewsDetailPage({ params }){
     }
 
     return(
-        <article className="news-article">
+        <article className={styles.blog_list}>
             <p className={styles.p}> <Link href='/' className={styles.a}> HOME </Link>/ <Link href='/blog' className={styles.a}> BLOGS</Link> / {params.id}</p> 
             <header className={styles.header}>
                 <h1 className={styles.headerTitle}>{blogItem.title}</h1>     
